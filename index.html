@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Web Của Mình</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f3f5;
+            color: #333;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 30px;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+        }
+
+        .main-content {
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+
+        /* KHU VỰC DANH SÁCH CÁC TRANG WEB BÊN DƯỚI */
+        .web-list-container {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #e9ecef;
+        }
+
+        .web-list-title {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+
+        /* Danh sách nút bấm */
+        .web-links-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 15px;
+        }
+
+        .web-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #fff;
+            color: #34495e;
+            text-decoration: none;
+            padding: 12px 15px;
+            border: 2px solid #cbd5e1;
+            border-radius: 8px;
+            font-weight: 600;
+            text-align: center;
+            transition: all 0.2s ease-in-out;
+        }
+
+        /* Hiệu ứng khi di chuột vào nút */
+        .web-btn:hover {
+            background-color: #3498db;
+            color: #fff;
+            border-color: #3498db;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(52, 152, 219, 0.3);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Nội dung chính của trang web hiện tại -->
+        <div class="main-content">
+            <h1>Chào mừng đến với các trang web của Giang</h1>
+            <p>Đây là các trang web của mình đã từng tạo</p>
+            <p>Hãy lướt xuống để xem các trang web của mình nhé</p>
+        </div>
+
+        <!-- DANH SÁCH TRANG WEB ĐỂ ẤN CHUYỂN SANG -->
+        <div class="web-list-container">
+            <p class="web-list-title">Danh sách trang web của mình:</p>
+            
+            <div class="web-links-grid">
+                <a href="https://giangdz11.github.io/ChatV3.2/" class="web-btn">Web nhắn tin</a>
+                <a href="https://giangdz11.github.io/Iloveyou/" class="web-btn">Tỏ tình ép buộc:))</a>
+                <a href="https://giangdz11.github.io/Test1/Khao-sat.html" class="web-btn">Troll khảo sát:)</a>
+                <a href="https://giangdz11.github.io/Test1/Troll.html" class="web-btn">Troll Gta RickRoll</a>
+                <a href="https://giangdz11.github.io/Test1/" class="web-btn">Sắp có</a>
+                <a href="https://giangdz11.github.io/Test1/" class="web-btn">Sắp có</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
